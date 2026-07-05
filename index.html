@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Allt om AI faller in i tre saker | @joudgor</title>
-<meta name="description" content="Slappna av. Allt du behöver lära dig om AI är tre saker: lär dig ett ekosystem, lär dig skills och custom GPTs, och koppla din AI till appar. Här är hela breakdownen och hur du enkelt börjar.">
-<meta property="og:title" content="Allt om AI faller in i tre saker">
-<meta property="og:description" content="Lär dig ett ekosystem, lär dig skills, koppla din AI till appar. Så börjar du med varje.">
+<title>Allt du behöver lära dig om AI är tre saker | @joudgor</title>
+<meta name="description" content="Slappna av. Allt du behöver lära dig om AI är tre saker: ett ekosystem, skills och kopplingar till dina appar. Hela genomgången, steg för steg med skärmbilder, på svenska.">
+<meta property="og:title" content="Allt du behöver lära dig om AI är tre saker">
+<meta property="og:description" content="Lär dig ett ekosystem, lär dig skills, koppla din AI till appar. Så börjar du med var och en.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -74,9 +74,27 @@
   .start .xl{color:var(--green-tx);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(52,101,56,0.35);}
   .start .xl:hover{opacity:.75;}
 
-  .fig{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:20px;max-width:680px;}
+  .fig{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:16px;max-width:680px;}
   .fig img{width:100%;display:block;background:#0d0d0f;}
   .fig figcaption{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;padding:10px 14px;}
+
+  /* STEPS (same look as spontan-semester/rabattkoder) */
+  .steps{margin-top:8px;}
+  .step{display:grid;grid-template-columns:40px 1fr;gap:18px;padding:26px 0;border-top:1px solid var(--border);}
+  .step:first-child{border-top:0;}
+  .step-n{width:34px;height:34px;border-radius:9999px;display:flex;align-items:center;justify-content:center;
+    font-family:var(--mono);font-weight:600;font-size:14px;background:var(--cloth-bg);color:var(--cloth-tx);}
+  .step h3{font-family:var(--serif);font-weight:600;font-size:22px;color:var(--ink);letter-spacing:-0.01em;margin-bottom:8px;line-height:1.25;}
+  .step p{font-size:15.5px;color:var(--text);line-height:1.62;margin-top:0;max-width:none;}
+  .step p b{color:var(--ink);font-weight:600;}
+  .step p+p{margin-top:10px;}
+  .kbd{font-family:var(--mono);font-weight:600;font-size:13px;background:var(--bg);border:1px solid var(--border);
+    border-radius:6px;padding:2px 8px;color:var(--ink);}
+  .note{margin-top:18px;font-size:14.5px;color:var(--text);line-height:1.55;background:var(--blue-bg);
+    border:1px solid rgba(31,108,159,0.16);border-radius:10px;padding:13px 16px;display:flex;gap:11px;max-width:680px;}
+  .note .lb{flex:0 0 auto;color:var(--blue-tx);}
+  .note .lb svg{width:18px;height:18px;display:block;}
+  .note b{color:var(--blue-tx);font-weight:600;}
 
   /* DUO (pillar 1 logos) */
   .duo{display:flex;align-items:center;justify-content:center;gap:26px;margin-top:20px;max-width:680px;
@@ -171,9 +189,9 @@
 
   <header class="hero">
     <div class="wrap">
-      <div class="eyebrow reveal">Du kommenterade verktyg</div>
-      <h1 class="reveal">Allt om AI faller in i <em>tre saker</em></h1>
-      <p class="lede reveal">Slappna av. Allt du behöver lära dig är tre saker, och allt annat du ser på nätet faller in i dem. Lär dig de här tre, så klickar resten på plats. Här är hela breakdownen, och hur du enkelt börjar med varje.</p>
+      <div class="eyebrow reveal">Du kommenterade "verktyg"</div>
+      <h1 class="reveal">Allt du behöver lära dig är <em>tre saker</em></h1>
+      <p class="lede reveal">Slappna av. Allt du behöver lära dig om AI är tre saker, och allt annat du ser på nätet kommer att falla in i dem. Här är hela genomgången, steg för steg med skärmbilder.</p>
       <div class="fmt reveal">
         <span>Ekosystem</span>
         <span>Skills</span>
@@ -188,7 +206,7 @@
     <div class="pillar reveal">
       <div class="pkick"><div class="pn">1</div><div class="plabel">Grunden</div></div>
       <h2>Lär dig ett ekosystem</h2>
-      <p>Välj ett verktyg, <b>Claude eller ChatGPT</b>, och bli riktigt bra på det. Sprid dig inte tunt över tio appar. När du kan ett verktyg på djupet går allt snabbare, och du börjar se vad AI faktiskt kan göra. Jag använder Claude själv och är jättebra på det nu.</p>
+      <p>Välj ett verktyg, <b>Claude eller ChatGPT</b>, och bli riktigt bra på det. Splittra dig inte på tio appar. När du kan ett verktyg på djupet går allt snabbare, och du börjar se vad AI faktiskt kan göra. Jag använder Claude själv och är jättebra på det nu, så resten av den här guiden visar Claude.</p>
       <div class="duo">
         <div class="chip"><img src="images/claude.png" alt="Claude"><span>Claude</span></div>
         <div class="or">eller</div>
@@ -200,25 +218,100 @@
     <!-- 2 -->
     <div class="pillar reveal">
       <div class="pkick"><div class="pn">2</div><div class="plabel">Här börjar det hända</div></div>
-      <h2>Lär dig skills och custom GPTs</h2>
-      <p>Skills (i Claude) och custom GPTs (i ChatGPT) är sparade instruktioner, nästan små automationer. Du kan använda färdiga som andra har byggt, eller skapa egna. <b>Det är här AI går från att svara till att faktiskt göra saker åt dig.</b> Det är enklare att lära sig än det låter.</p>
-      <figure class="fig">
-        <img src="images/skills.jpg" alt="Skills i plus-menyn i Claude-appen, markerad">
-        <figcaption>Skills finns i plus-menyn i Claude</figcaption>
-      </figure>
-      <div class="start"><span class="lb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><span><b>Börja så här:</b> Testa en färdig skill eller GPT först så du känner hur det funkar. Gör sen en enkel egen för något du gör ofta. Du hittar Skills i plus-menyn.</span></div>
+      <h2>Lär dig skills</h2>
+      <p>En skill är sparade instruktioner som Claude följer varje gång du behöver dem, nästan som en liten automation. Du kan använda färdiga skills som andra byggt, eller skapa egna. <b>Det är här AI går från att svara till att faktiskt göra saker åt dig.</b> Så här skapar du din första, steg för steg.</p>
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-n">1</div>
+          <div>
+            <h3>Öppna Customize</h3>
+            <p>I Claude-appen: klicka på <b>Customize (1)</b> i vänstermenyn.</p>
+            <figure class="fig" style="max-width:360px">
+              <img src="images/skills-1-customize.jpg" alt="Customize i vänstermenyn i Claude-appen, markerad">
+              <figcaption>Steg 1 · Customize i vänstermenyn</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-n">2</div>
+          <div>
+            <h3>Välj Skills och tryck på Add</h3>
+            <p>Välj <b>Skills</b> i vänsterspalten om den inte redan är vald. Tryck sen på <b>Add (1)</b> för att skapa en egen skill. Vill du hellre kika på färdiga skills trycker du på <b>Browse (2)</b>.</p>
+            <figure class="fig">
+              <img src="images/skills-2-add.jpg" alt="Skills-sidan i Claude med Add och Browse markerade">
+              <figcaption>Steg 2 · Add skapar en egen, Browse för färdiga</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-n">3</div>
+          <div>
+            <h3>Välj Create with Claude</h3>
+            <p>Tre alternativ dyker upp. Välj <b>Create with Claude (1)</b>, det enklaste sättet: Claude bygger skillen tillsammans med dig. De andra två är för dig som vill skriva instruktionerna själv eller ladda upp en färdig skill-fil.</p>
+            <figure class="fig">
+              <img src="images/skills-3-create.jpg" alt="Add-menyn i Claude med Create with Claude markerat">
+              <figcaption>Steg 3 · Create with Claude</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-n">4</div>
+          <div>
+            <h3>Beskriv vad skillen ska göra</h3>
+            <p>En ny chatt öppnas med texten förifylld. Skicka den, så frågar Claude vad skillen ska göra. Beskriv det med egna ord, till exempel "sammanfatta veckans mejl varje fredag" eller "skriv mina offerter i min ton". Claude bygger sen skillen tillsammans med dig.</p>
+            <figure class="fig">
+              <img src="images/skills-4-beskriv.jpg" alt="Ny chatt i Claude med förifylld text för att skapa en skill">
+              <figcaption>Steg 4 · Beskriv skillen med egna ord</figcaption>
+            </figure>
+            <p>Efteråt använder du skillen genom att skriva <span class="kbd">/</span> i textrutan, eller genom att bara be om det du vill ha: Claude känner själv igen när skillen behövs.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="note"><span class="lb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span><span>Kör du ChatGPT? Motsvarigheten där heter <b>custom GPTs</b>. Principen är densamma: sparade instruktioner du återanvänder i stället för att förklara om från noll varje gång.</span></div>
     </div>
 
     <!-- 3 -->
     <div class="pillar reveal">
       <div class="pkick"><div class="pn">3</div><div class="plabel">Det som gör skillnad</div></div>
       <h2>Koppla din AI till appar</h2>
-      <p>Det här är det som gör din AI till ett riktigt verktyg. Koppla den till dina appar, som Gmail, kalendern eller webbläsaren, så kan den läsa, boka och göra saker åt dig på riktigt. <b>Utan kopplingar är den bara en chatbot.</b></p>
-      <figure class="fig">
-        <img src="images/connector.jpg" alt="En app kopplad till Claude, Enabled-reglaget markerat">
-        <figcaption>En app kopplad och aktiverad i Claude</figcaption>
-      </figure>
-      <div class="start"><span class="lb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><span><b>Börja så här:</b> Koppla en enda app till att börja med. I Claude gör du det under plus-menyn och Connectors. Vill du se det steg för steg, kolla mina guider om att <a class="xl" href="https://jhwaijeh-gif.github.io/spontan-semester/" target="_blank" rel="noopener">hitta en spontan semester</a> och <a class="xl" href="https://jhwaijeh-gif.github.io/rabattkoder/" target="_blank" rel="noopener">hitta rabattkoder</a>. Båda visar hur du kopplar en app från början.</span></div>
+      <p>Det här är det som gör din AI till ett riktigt verktyg. Koppla den till dina appar, som Gmail, kalendern eller resesajter, så kan den läsa, boka och göra saker åt dig på riktigt. <b>Utan kopplingar är den bara en chatbot.</b></p>
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-n">1</div>
+          <div>
+            <h3>Öppna connector-menyn</h3>
+            <p>I textrutan: tryck på <b>plus-tecknet (1)</b>, välj <b>Connectors (2)</b>, sen <b>Add connector (3)</b> och till sist <b>Browse connectors (4)</b>.</p>
+            <figure class="fig">
+              <img src="images/koppla-1-meny.jpg" alt="Claude-menyn: plus, Connectors, Add connector, Browse connectors numrerade">
+              <figcaption>Steg 1 · Fyra klick till connector-katalogen</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-n">2</div>
+          <div>
+            <h3>Sök på appen och koppla den</h3>
+            <p>Sök på appen du vill koppla <b>(1)</b> och tryck på <b>plus-knappen (2)</b>. Logga in eller godkänn om appen ber om det. Här kopplar jag resesajten lastminute.com som exempel, men samma klick funkar för vilken app som helst i katalogen.</p>
+            <figure class="fig">
+              <img src="images/koppla-2-koppla.jpg" alt="Sök appen och tryck på plus för att koppla den i Claude">
+              <figcaption>Steg 2 · Sök och koppla appen</figcaption>
+            </figure>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="start"><span class="lb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><span><b>Se det i praktiken:</b> mina guider om att <a class="xl" href="https://jhwaijeh-gif.github.io/spontan-semester/" target="_blank" rel="noopener">hitta en spontan semester</a> och <a class="xl" href="https://jhwaijeh-gif.github.io/rabattkoder/" target="_blank" rel="noopener">hitta rabattkoder</a> visar varje klick från koppling till resultat.</span></div>
     </div>
 
     <!-- CLOSING -->
