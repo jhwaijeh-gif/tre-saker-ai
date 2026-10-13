@@ -171,6 +171,11 @@
     .duo{gap:16px;padding:24px 14px;}
     .duo .chip img{width:48px;height:48px;}
   }
+  /* Telefon: numret ovanför rubriken så att text och bilder får hela bredden (Judes besked 2026-10-13) */
+  @media(max-width:640px){
+    .step{grid-template-columns:minmax(0,1fr);gap:12px;padding:26px 0;}
+    .step-n{width:30px;height:30px;font-size:13px;}
+  }
 </style>
 </head>
 <body>
